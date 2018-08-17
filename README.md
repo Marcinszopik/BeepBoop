@@ -11,7 +11,7 @@ This is a Beep Boop Generator. User inputs numbers and the application returns e
 ### Behavior Driven Development Specifications
 
 
-<!-- * This program replaces “0” with “Beep!”
+* This program replaces “0” with “Beep!”
     * Example Input: 0
     * Example Output: [“Beep!”]
 * This program replaces “1” with “Boop!”
@@ -29,7 +29,7 @@ This is a Beep Boop Generator. User inputs numbers and the application returns e
 Redundant BDD
 * This program replaces any number divisible by 3 with “I’m sorry, Dave. I'm afraid I can't do that.”
    	* Example Input: 30
-    * Example Output: [“I’m sorry, Dave. I'm afraid I can't do that.”] -->
+    * Example Output: [“I’m sorry, Dave. I'm afraid I can't do that.”]
 * This program returns the range of numbers from 0 to the input.
     * Example Input: 10
     * Example Output: [“Beep!”,“Boop!”,2,“I’m sorry, Dave. I'm afraid I can't do that.”,4,5,“I’m sorry, Dave. I'm afraid I can't do that.”, 7, 8,“I’m sorry, Dave. I'm afraid I can't do that.”,“Boop!”]
