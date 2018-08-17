@@ -41,8 +41,6 @@ Redundant BDD
 
 * _To view repository, open the following in a browser:_
 * _https://github.com/amcgladd/BeepBoop.git_
-* _GITHUB Pages link:_
-* _https://amcgladd.github.io/BeepBoop_
 
 ## Support and contact details
 
