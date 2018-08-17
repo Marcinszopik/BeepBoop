@@ -2,6 +2,8 @@
 function beepBooper(userInput) {
   if (userInput === 0) {
     return ["Beep!"]
+  } else if (userInput === 1) {
+    return ["Boop!"]
   }
 }
 
