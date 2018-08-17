@@ -1,9 +1,9 @@
 //back-end logic
 function beepBooper(inputNumber,inputString) {
-  if ((inputNumber === 0) || (inputString.includes("0"))) {
-    return ["Beep!"]
-  } else if (inputNumber === 1) {
+    if ((inputNumber === 1) || (inputString.includes("1"))) {
     return ["Boop!"]
+  } else if ((inputNumber === 0) || (inputString.includes("0"))) {
+    return ["Beep!"]
   } else if (inputNumber % 3 === 0){
     return ["I’m sorry, Dave. I'm afraid I can't do that."]
   }

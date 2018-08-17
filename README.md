@@ -20,9 +20,9 @@ This is a Beep Boop Generator. User inputs numbers and the application returns e
 * This program replaces numbers divisible by 3 with “I'm sorry, Dave. I'm afraid I can't do that.”   
     * Example Input: 30
     * Example Output: [“I’m sorry, Dave. I'm afraid I can't do that.”] -->
-* This program replaces any number containing a 0 with “Beep!”
+<!-- * This program replaces any number containing a 0 with “Beep!”
     * Example Input: 10
-    * Example Output: [“Beep!”]
+    * Example Output: [“Beep!”] -->
 * This program replaces any number containing a 1 with “Boop!”
     * Example Input: 10
     * Example Output: [“Boop!”]
