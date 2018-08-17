@@ -1,10 +1,10 @@
 //back-end logic
-function beepBooper(userInput) {
-  if (userInput === 0) {
+function beepBooper(inputNumber,inputString) {
+  if ((inputNumber === 0) || (inputString.includes("0"))) {
     return ["Beep!"]
-  } else if (userInput === 1) {
+  } else if (inputNumber === 1) {
     return ["Boop!"]
-  } else if (userInput % 3 === 0){
+  } else if (inputNumber % 3 === 0){
     return ["I’m sorry, Dave. I'm afraid I can't do that."]
   }
 }
@@ -13,9 +13,12 @@ function beepBooper(userInput) {
 $(document).ready(function() {
   $("#inputForm").submit(function(event) {
     event.preventDefault();
-    var userInput = parseInt($("#userInput").val());
+    var inputNumber = parseInt($("#userInput").val());
+    var inputString = inputNumber.toString();
+    console.log("inputNumber = "+inputNumber);
+    console.log("inputString = "+inputString);
     var result = "";
-    result += beepBooper(userInput);
+    result += beepBooper(inputNumber,inputString);
     $("#outputList").empty();
     $("#outputList").append('<li>'+result+'</li>');
     $("#output").show();
