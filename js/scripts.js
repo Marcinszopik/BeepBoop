@@ -1,10 +1,5 @@
 //back-end logic
 var rangeNumbers = [];
-var iterationNumber = 0;
-
-function reseter(result) {
-  return result = "";
-}
 
 function rangeMaker(inputNumber) {
   for (var index = 0; index < inputNumber+1; index++) {
@@ -25,20 +20,17 @@ function beepBooper(number) {
   }
 }
 
-
 //front-end logic
 $(document).ready(function() {
   $("#inputForm").submit(function(event) {
     event.preventDefault();
     $(".output").remove();
-    iterationNumber += 1;
-    console.log(iterationNumber);
     var inputNumber = parseInt($("#userInput").val());
     rangeMaker(inputNumber);
     rangeNumbers.forEach(function(number){
       $("#output").append('<li class="output">'+beepBooper(number)+'</li>');
     })
     $("#output").show();
-
+    rangeNumbers = [];
   });
 });
