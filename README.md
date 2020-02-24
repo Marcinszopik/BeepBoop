@@ -1,8 +1,8 @@
 # **Beep Boop**
 
-#### _Beep Boop Generator, 08.17.2018_
+#### _Beep Boop Generator
 
-##### By AJ Mcgladdery
+##### By Marcin Szopik
 
 ## Description
 
@@ -36,15 +36,9 @@ Redundant BDD
 
 
 
-
-## Setup/Installation Requirements
-
-* _To view repository, open the following in a browser:_
-* _https://github.com/amcgladd/BeepBoop.git_
-
 ## Support and contact details
 
-Please email AJ at amcgladd@gmail.com
+Please email szopiks@yahoo.com
 
 ## Technologies Used
 
@@ -55,6 +49,4 @@ _jQuery_
 
 ### License
 
-This software is licensed under the MIT license.
-
-Copyright (c) 2018 AJ Mcgladdery
+Copyright (c) 2018 Marcin Szopik
